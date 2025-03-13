@@ -1,0 +1,27 @@
+# Git and version control
+.git
+.gitignore
+
+# Documentation
+README.md
+
+# Development and local files
+*.log
+.env
+.DS_Store
+
+# Build and temporary files
+*.tmp
+*.bak
+build/
+tmp/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Unnecessary Docker files
+Dockerfile
+docker-compose.yml
